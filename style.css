@@ -1,0 +1,112 @@
+.header {
+  background-color: #9a53cd;
+  background-image: linear-gradient(to bottom, #cdbdd7, #6f2c91);
+  padding: 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  margin: 0px;
+  padding: 4rem;
+  color: #482c5d;
+  font-family: 'Allura', cursive;
+}
+
+body {
+  background-color: #6f2c91;
+
+}
+
+
+
+
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Side tab visible on the side */
+#side-tab {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: #333;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  writing-mode: vertical-rl;
+  text-align: center;
+  z-index: 1000;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Slide-out menu */
+#slide-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: #444;
+  color: white;
+  padding: 1rem;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 999;
+}
+
+#slide-menu.open {
+  transform: translateX(0);
+}
+
+#slide-menu button#close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  float: right;
+  cursor: pointer;
+}
+
+#slide-menu ul {
+  list-style: none;
+  padding: 2rem 0 0;
+}
+
+#slide-menu li {
+  margin: 1rem 0;
+}
+
+#slide-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.purple-arrow::after {
+  content: "→";
+  color: white;
+  font-size: 1.5rem;
+}
+
+#side-tab {
+  background: #6a3093;
+  width: 30px;
+}
+
+#side-tab:hover {
+  background: #9a53cd;
+}
+
+#slide-menu {
+  background: #321b43;
+}
+
+#slide-menu a:hover {
+  color: #b583e0;
+}
