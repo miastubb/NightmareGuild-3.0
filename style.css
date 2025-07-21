@@ -217,6 +217,46 @@ footer {
   font-size: 1.5rem;
 }
 
+/*dragon class page styles*/
+main {
+  background: var(--main-gradient);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header a {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+h3 {
+  color: var(--text-purple);
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 4vw, 2rem);
+  margin: 1rem 0;
+}
+
+h4 {
+  color: var(--text-purple);
+  font-family: var(--font-body);
+  font-size: clamp(1.5rem, 3vw, 1.5rem);
+  margin: 0.5rem 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: var(--text-purple);
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .header {
