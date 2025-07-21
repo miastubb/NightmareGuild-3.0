@@ -291,9 +291,13 @@ ul {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
   main {
     background-attachment: scroll;
+  }
+
+  .header-logo {
+    display: none;
   }
 
   video {
